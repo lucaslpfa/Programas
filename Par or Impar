@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int iNum = 0;
+  string sReposta;
+
+  cout << "Digite um número: ";
+  cin >> iNum;
+
+  sResposta = ((iNum % 2 == 0)? "Par" : "Impar");
+
+  cout << sResposta << endl;
+}
